@@ -38,7 +38,7 @@ client.on('message', (message) => {
     return message.reply('ㅇㅇ 살아있음');
   }
 
-  if(message.content == '!서버상태') {
+  if(message.content == '!si') {
     let embed = new Discord.RichEmbed()
     let img = 'https://cdn.discordapp.com/avatars/702764564298596382/1725a15ef3a15a9acb6303c5fb11c643.png?size=256';
     var duration = moment.duration(client.uptime).format(" D [일], H [시간], m [분], s [초]");
